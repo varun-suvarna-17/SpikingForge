@@ -1,0 +1,20 @@
+[project]
+name = "spikingforge"
+version = "0.1.0"
+description = "Lightweight Spiking Neural Network Toolchain for Embedded AI"
+authors = [{ name = "SpikingForge Team" }]
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+    "numpy",
+    "pyyaml",
+    "click"
+]
+
+[project.scripts]
+spikingforge = "spikingforge.cli:cli"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

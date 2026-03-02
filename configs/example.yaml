@@ -1,0 +1,8 @@
+model:
+  input_size: 100
+  hidden_size: 50
+  output_size: 10
+
+training:
+  epochs: 5
+  lr: 0.01
